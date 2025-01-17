@@ -26,7 +26,7 @@ It also reduces deployment overhead because Amazon SageMaker AI manages loading 
 and scaling them based on the traffic patterns to your endpoint.
 
 The following diagram shows how multi-model endpoints work compared to single-model endpoints.
-![how multi-model endpoints work compared to single-model endpoints](images/multi-model-endpoints-diagram.jpg)
+![how multi-model endpoints work compared to single-model endpoints](multi-model-endpoints-diagram.jpg)
 
 This solution uses DJL Serving with an Amazon SageMaker Multi-model Endpoints (MME). 
 As a result the configuration differs from the default MME setup. 
