@@ -8,10 +8,10 @@ key [reference](https://docs.aws.amazon.com/sagemaker/latest/dg/multi-model-endp
 
 
 What different and new with this content is:
-* there is more of an emphasis on providing a variety of working examples to help you more easily translate your 
+* There is more of an emphasis on providing a variety of working examples to help you more easily translate your 
 use case to this solution
-* this demontrates having simultaneous use of different model classes (Scikit-learn and Setfit)
-* the working examples work, while the code example referenced by the original blogpost no longer works 
+* This demontrates having simultaneous use of different model classes (Scikit-learn and Setfit)
+* The working examples work, while the code example referenced by the original blogpost no longer works 
 due the container and python library version updates.
 
 As noted in the original article: With this architecture, a software as a service (SaaS) business can break 
@@ -26,6 +26,7 @@ It also reduces deployment overhead because Amazon SageMaker AI manages loading 
 and scaling them based on the traffic patterns to your endpoint.
 
 The following diagram shows how multi-model endpoints work compared to single-model endpoints.
+
 ![how multi-model endpoints work compared to single-model endpoints](multi-model-endpoints-diagram.jpg)
 
 This solution uses DJL Serving with an Amazon SageMaker Multi-model Endpoints (MME). 
